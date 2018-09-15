@@ -19,8 +19,8 @@ def pmeans(filepath, p):
         for i, weight in enumerate(data):
             doc2vec[i] = doc2vec[i] + pow(weight, p)
 
-    for i, element in enumerate(doc2vec):
-        doc2vec[i] = pow((element / n), (1.0 / p))
+    for i, numerator in enumerate(doc2vec):
+        doc2vec[i] = pow((numerator / n), (1.0 / p))
 
     return doc2vec
 
