@@ -12,3 +12,6 @@ main:
   #   url: /sitemap/
   - title: "Reading List"
     url: /reading/ 
+    
+  - title: "Code"
+    url: /code/ 
