@@ -1,3 +1,7 @@
+---
+permalink:/code/
+---
+
 ```python
 from math import pow
 
