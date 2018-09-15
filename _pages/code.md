@@ -17,7 +17,7 @@ def pmeans(filepath, p):
     for word in all_words:
         data = [float(x) for x in word.split(' ')[1:-1]]
         for i, weight in enumerate(data):
-            doc2vec[i] = doc2vec[i] + pow(weight, p)
+            doc2vec[i] += pow(weight, p)
 
     return [pow((numerator / n), (1.0 / p)) for numerator in doc2vec]
 
