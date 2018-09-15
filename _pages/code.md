@@ -1,5 +1,5 @@
 ---
-permalink:/code/
+permalink: /code/
 ---
 
 ```python
