@@ -3,8 +3,6 @@ permalink: /code/
 ---
 
 ```python
-from math import pow
-
 ## Function to calculate power means
 from math import pow
 
